@@ -10,7 +10,7 @@ public class Arraylist1 {
         for(int i=0;i<a.size();i++){
             System.out.println(a.get(i));
         }
-        List<Integer>list = Arrays.asList(10,20,30,40);
+        List<Integer>list = Arrays.asList (10,20,30,40);
         System.out.println("List elements:"+list);
 
     }
