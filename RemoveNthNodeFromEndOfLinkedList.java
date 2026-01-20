@@ -1,5 +1,5 @@
 class ListNode{
-    int data;
+       int data;
     ListNode next;
     public ListNode(int data){
         this.data = data;

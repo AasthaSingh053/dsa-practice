@@ -1,6 +1,5 @@
 //find middle node of linkedlist
 //reverse the second half
-//
 class ListNode{
     int data;
     ListNode next;
