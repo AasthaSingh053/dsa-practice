@@ -44,8 +44,11 @@ public class QueueImplementation {
     public static void main(String args[]){
         Solution obj = new Solution();
         ListNode queue = new ListNode(5);
-        queue.next = new ListNode(3);
+        queue.next = new ListNode(2);
         ListNode newQueue = obj.add(queue,5);
+        newQueue = obj.remove(newQueue);
+        int front = obj.front(newQueue);
+        System.out.println(front);
         obj.display(newQueue);
 
     }
