@@ -7,9 +7,8 @@ public class QueueBuiltIn {
         queue.offer(3);
         queue.remove();
         System.out.println(queue.peek());
-        System.out.println(queue.poll());
+        System.out.println(queue.poll());//Removes First element and also returns it
         System.out.println(queue.element());
         System.out.println(queue);
-
     }
 }
