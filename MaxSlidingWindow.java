@@ -31,8 +31,8 @@ class Solution {
             // maintain decreasing order in deque
             while (!de.isEmpty() && nums[de.peekLast()] < nums[j]) {
                 de.removeLast();
-            }
-            de.offerLast(j);
+                        }
+             de.offerLast(j);
 
             // current max
             result[ri++] = nums[de.peekFirst()];
