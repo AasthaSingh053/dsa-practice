@@ -5,7 +5,6 @@ class Solution{
         int n2 = nums[1];
         int left = 0;
         int right = 1;
-        int count = 0;
         int maxCount = 1;
         while(left < right && right < n){
             if((nums[left] == n1 && nums[right] == n2) || (nums[left] == n1 && nums[right] == n1)
