@@ -10,7 +10,7 @@ class Solution {
                 matrix[j][i] = temp;
             }
         }
-        //Now Reverse the matrix
+        //Now Reverse the matrix along x-axis
         for(int i = 0;i<n;i++){
             for(int j = 0;j<n/2;j++){
                 int temp = matrix[i][j];
