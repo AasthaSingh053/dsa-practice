@@ -50,7 +50,7 @@ class Solution {
         ListNode head = obj.addTwoNumbers(head1, head2);
         ListNode temp = head;
         while(temp!= null){
-            System.out.println(temp.val);
+            System.out.print(temp.val);
             temp = temp.next;
         }
 

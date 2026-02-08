@@ -14,6 +14,7 @@ class Solution {
         }
 
 int left = 0;
+
 int right = c.length()-1;
 while(left < right){
     if(c.charAt(left) == c.charAt(right)){

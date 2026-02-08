@@ -19,7 +19,6 @@ class Solution {
             }
         }
         System.out.println(Arrays.toString(matrix));
-
     }
 }
 public class RotateMatrixBy90 {
