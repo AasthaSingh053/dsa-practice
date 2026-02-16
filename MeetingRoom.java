@@ -1,0 +1,23 @@
+ import java.util.*;
+ class Solution{
+    public boolean canAttendMeetings(int[][] intervals){
+       if(intervals == null || intervals.length == 0){
+        return true;
+       }
+       Arrays.sort(intervals,(a,b)->Integer.compare(a[0],b[0]));
+       for(int i = 1;i<intervals.length;i++){
+        if(intervals[i-1][1] > intervals[i][0]){
+            return false;
+        }
+       }
+       return true;
+
+    }
+}
+public class MeetingRoom {
+    public static void main(String args[]){
+        int[][]intervals = new int[][]  {{0,30},{5,10},{15,20}};
+        Solution obj = new Solution();
+        System.out.println(obj.canAttendMeetings(intervals));
+    }
+}
